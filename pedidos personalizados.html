@@ -1,0 +1,693 @@
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Miga De Amor - Pedidos Personalizados</title>
+
+<link href="#" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Poppins,sans-serif;
+background:#fff;
+color:#382323;
+
+}
+
+header{
+
+background:#FDF1F3;
+padding:22px 70px;
+
+}
+
+.superior{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.logo h1{
+
+font-family:'Playfair Display';
+font-size:52px;
+
+}
+
+.logo p{
+
+letter-spacing:5px;
+font-size:13px;
+color:#D97D8D;
+
+}
+
+.contacto{
+
+display:flex;
+gap:25px;
+font-size:15px;
+
+}
+
+nav{
+
+background:white;
+display:flex;
+justify-content:center;
+gap:50px;
+padding:22px;
+
+border-bottom:1px solid #eee;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#3d2727;
+font-weight:500;
+
+}
+
+.activo{
+
+color:#EB708A;
+border-bottom:3px solid #EB708A;
+padding-bottom:8px;
+
+}
+
+.hero{
+
+background:#FFF5F6;
+
+display:flex;
+
+padding:70px;
+
+align-items:center;
+
+}
+
+.texto{
+
+width:50%;
+
+}
+
+.texto h3{
+
+font-size:34px;
+margin-bottom:15px;
+
+}
+
+.texto h1{
+
+font-family:'Playfair Display';
+
+font-size:85px;
+
+line-height:90px;
+
+margin-bottom:25px;
+
+}
+
+.rosa{
+
+color:#EB708A;
+
+}
+
+.texto p{
+
+font-size:25px;
+
+line-height:42px;
+
+margin-bottom:35px;
+
+}
+
+.boton{
+
+background:#EB708A;
+
+color:white;
+
+border:none;
+
+padding:18px 35px;
+
+border-radius:40px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+.imagen{
+
+width:50%;
+
+}
+
+.imagen img{
+
+width:100%;
+border-radius:10px;
+
+}
+
+.funciona{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.funciona h2{
+
+font-family:'Playfair Display';
+
+font-size:55px;
+
+margin-bottom:60px;
+
+}
+
+.pasos{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+}
+
+.paso{
+
+width:220px;
+
+}
+
+.numero{
+
+background:#EB708A;
+
+width:45px;
+
+height:45px;
+
+margin:auto;
+
+border-radius:50%;
+
+color:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-weight:bold;
+
+margin-bottom:15px;
+
+}
+
+.paso h3{
+
+margin-bottom:15px;
+
+}
+
+.galeria{
+
+padding:30px 70px;
+
+text-align:center;
+
+}
+
+.galeria h2{
+
+font-size:55px;
+
+font-family:'Playfair Display';
+
+margin-bottom:45px;
+
+}
+
+.tarjetas{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+width:210px;
+
+background:white;
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 0 10px rgba(0,0,0,.08);
+
+}
+
+.card img{
+
+width:100%;
+
+height:180px;
+
+object-fit:cover;
+
+}
+
+.card h3{
+
+padding:15px 10px 8px;
+
+}
+
+.card p{
+
+padding:0 12px 20px;
+
+font-size:14px;
+
+}
+
+.detalle{
+
+margin:70px;
+
+padding:50px;
+
+background:#FFF0F2;
+
+border-radius:20px;
+
+display:flex;
+
+justify-content:space-between;
+
+}
+
+.izquierda{
+
+width:50%;
+
+}
+
+.izquierda h2{
+
+font-family:'Playfair Display';
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+.izquierda p{
+
+font-size:20px;
+
+line-height:34px;
+
+margin-bottom:25px;
+
+}
+
+.derecha{
+
+width:35%;
+
+font-size:20px;
+
+line-height:50px;
+
+}
+
+footer{
+
+background:#FFF7F8;
+
+padding:60px;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:40px;
+
+margin-top:50px;
+
+}
+
+footer h3{
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+line-height:35px;
+
+}
+
+.copy{
+
+text-align:center;
+
+padding:25px;
+
+border-top:1px solid #eee;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="superior">
+
+<div class="logo">
+
+<h1>🧁 MIGA DE AMOR</h1>
+
+<p>REPOSTERÍA</p>
+
+</div>
+
+<div class="contacto">
+
+<span>📞 951 651 9062</span>
+
+<span>✉ marianamartinez9831@gmail.com</span>
+
+<span>📷</span>
+
+<span>🛒</span>
+
+</div>
+
+</div>
+
+</header>
+
+<nav>
+
+<a href="inicio.html">INICIO</a>
+
+<a href="productos.html">PRODUCTOS</a>
+
+<a href="pedidos personalizados.html">PEDIDOS PERSONALIZADOS</a>
+
+<a href="galeria.html">GALERÍA</a>
+
+<a href="contacto.html">CONTACTO</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="texto">
+
+<h3>Haz tu ocasión inolvidable ❤️</h3>
+
+<h1>
+
+Pedidos<br>
+
+<span class="rosa">
+
+personalizados
+
+</span>
+
+</h1>
+
+<p>
+
+Creamos el pastel perfecto para tu evento.
+Cuéntanos tu idea y la hacemos realidad
+con sabor, diseño y mucho amor.
+
+</p>
+
+<button class="boton">
+
+COTIZA TU PEDIDO
+
+</button>
+
+</div>
+
+<div class="imagen">
+
+<img src="imagenes/img1.jpg">
+
+</div>
+
+</section>
+
+<section class="funciona">
+
+<h2>¿Cómo funciona?</h2>
+
+<div class="pasos">
+
+<div class="paso">
+
+<div class="numero">1</div>
+
+<h3>Cuéntanos tu idea</h3>
+
+<p>Comparte detalles del evento.</p>
+
+</div>
+
+<div class="paso">
+
+<div class="numero">2</div>
+
+<h3>Propuesta</h3>
+
+<p>Te enviamos cotización.</p>
+
+</div>
+
+<div class="paso">
+
+<div class="numero">3</div>
+
+<h3>Confirmación</h3>
+
+<p>Aprobas diseño y fecha.</p>
+
+</div>
+
+<div class="paso">
+
+<div class="numero">4</div>
+
+<h3>Entrega</h3>
+
+<p>Lo llevamos hasta tu evento.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="galeria">
+
+<h2>
+
+Algunos de nuestros pedidos
+
+</h2>
+
+<div class="tarjetas">
+
+<div class="card">
+
+<img src="imagenes/cum.jpg">
+
+<h3>Cumpleaños</h3>
+
+<p>Pasteles únicos.</p>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/baby.jpg">
+
+<h3>Baby Shower</h3>
+
+<p>Diseños personalizados.</p>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/15años.jpg">
+
+<h3>XV años</h3>
+
+<p>Elegancia y sabor.</p>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/boda.jpg">
+
+<h3>Bodas</h3>
+
+<p>Momentos inolvidables.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="detalle">
+
+<div class="izquierda">
+
+<h2>
+
+Cada detalle importa
+
+</h2>
+
+<p>
+
+Trabajamos contigo para crear
+un pastel personalizado.
+
+</p>
+
+<button class="boton">
+
+COTIZA AHORA
+
+</button>
+
+</div>
+
+<div class="derecha">
+
+<p>🎂 Diseño personalizado</p>
+
+<p>🌿 Ingredientes de calidad</p>
+
+<p>📅 Entrega puntual</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<div>
+
+<h3>Dulce Encanto</h3>
+
+<p>
+
+Repostería artesanal
+hecha con amor.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Navegación</h3>
+
+<p>Inicio</p>
+
+<p>Nosotros</p>
+
+<p>Productos</p>
+
+</div>
+
+<div>
+
+<h3>Ayuda</h3>
+
+<p>Preguntas frecuentes</p>
+
+<p>Políticas</p>
+
+</div>
+
+<div>
+
+<h3>Contacto</h3>
+
+<p>951 651 9062</p>
+
+<p>marianamartinez9831@gmail.com</p>
+<p> calle Echeveria s/n, primer seccion SANTA LUCIA MIAHUATLAN</p>
+
+</div>
+
+</footer>
+
+<div class="copy">
+
+© 2026 Miga De Amor Repostería
+
+</div>
+
+</body>
+
+</html>
+
+ 
