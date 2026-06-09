@@ -1,0 +1,498 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miga de Amor Repostería</title>
+
+<link href="imagenes/img6.jpg">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff8f8;
+color:#4d2d2d;
+}
+
+header{
+
+background:#fdeef0;
+padding:20px 80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+
+font-size:40px;
+font-family:'Playfair Display',serif;
+color:#3f2525;
+}
+
+.logo span{
+
+display:block;
+font-size:14px;
+letter-spacing:5px;
+color:#e9899b;
+}
+
+.info{
+
+display:flex;
+gap:40px;
+color:#7b5a5a;
+font-size:15px;
+
+}
+
+nav{
+
+background:white;
+padding:22px;
+box-shadow:0 2px 6px rgba(0,0,0,.05);
+
+}
+
+nav ul{
+
+display:flex;
+justify-content:center;
+gap:60px;
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#4b3131;
+font-weight:500;
+transition:.3s;
+
+}
+
+nav a:hover{
+color:#ef7d94;
+}
+
+.hero{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px 90px;
+background:#fff6f6;
+}
+.texto{
+width:45%;
+}
+
+.texto h1{
+font-size:60px;
+font-family:'Playfair Display';
+margin-bottom:20px;
+}
+
+.texto p{
+font-size:18px;
+line-height:1.8;
+color:#6e5555;
+}
+
+.hero img{
+
+width:480px;
+border-radius:20px;
+
+}
+
+.contenedor{
+
+display:flex;
+padding:50px 60px;
+gap:30px;
+
+}
+
+.filtro{
+
+width:260px;
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 0 10px rgba(0,0,0,.05);
+
+}
+
+.filtro h3{
+
+margin-bottom:25px;
+
+}
+
+.filtro ul{
+
+list-style:none;
+
+}
+
+.filtro li{
+
+margin:15px 0;
+color:#6d5959;
+
+}
+
+.productos{
+
+flex:1;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,.05);
+text-align:center;
+padding-bottom:20px;
+
+}
+
+.card img{
+
+width:100%;
+height:220px;
+object-fit:cover;
+
+}
+
+.categoria{
+
+color:#ef8296;
+margin-top:15px;
+font-size:14px;
+
+}
+
+.card h4{
+
+font-size:24px;
+margin:10px;
+
+}
+
+.precio{
+
+color:#ef7c92;
+font-weight:600;
+font-size:22px;
+
+}
+
+.btn{
+
+margin-top:15px;
+padding:12px 22px;
+border:2px solid #ef8ba0;
+background:white;
+color:#ef7c92;
+border-radius:30px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#ef8ba0;
+color:white;
+
+}
+
+.footer-top{
+
+background:#fff1f3;
+padding:50px;
+display:flex;
+justify-content:space-around;
+margin-top:70px;
+
+}
+
+.footer{
+
+padding:50px;
+background:white;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+
+}
+
+.footer h4{
+
+margin-bottom:20px;
+
+}
+
+.footer p{
+
+margin:10px 0;
+color:#666;
+
+}
+
+.copy{
+
+text-align:center;
+padding:20px;
+border-top:1px solid #eee;
+color:#777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🧁 MIGA DE AMOR
+<span>REPOSTERÍA</span>
+</div>
+
+<div class="info">
+
+<p>📞 951 651 9062</p>
+<p>✉ marianamartinez9831@gmail.com</p>
+<p>🛒</p>
+
+</div>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="inicio.html">INICIO</a></li>
+<li><a href="productos.html">PRODUCTOS</a></li>
+<li><a href="pedidos personalizados.html">PEDIDOS PERSONALIZADOS</a></li>
+<li><a href="galeria.html">GALERÍA</a></li>
+<li><a href="contacto.html">CONTACTO</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="texto">
+
+<h1>Nuestros productos</h1>
+
+<p>
+Descubre nuestra variedad de creaciones hechas
+con ingredientes de la más alta calidad y mucho amor.
+</p>
+
+</div>
+
+<img src="imagenes/img6.jpg">
+
+</section>
+
+<div class="contenedor">
+
+<div class="filtro">
+
+<h3>Filtrar productos</h3>
+
+<ul>
+
+<li>✔ Todos</li>
+<li>Pasteles</li>
+<li>Cupcakes</li>
+<li>Galletas</li>
+<li>Postres</li>
+
+</ul>
+
+</div>
+
+<div class="productos">
+
+<div class="grid">
+
+<div class="card">
+
+<img src="imagenes/pcho.jpg">
+
+<p class="categoria">Pasteles</p>
+
+<h4>Pastel de Chocolate</h4>
+
+<p class="precio">$450</p>
+
+<button class="btn">
+VER DETALLES
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/pred.jpg">
+
+<p class="categoria">
+Pasteles
+</p>
+
+<h4>
+Pastel Red Velvet
+</h4>
+
+<p class="precio">
+$480
+</p>
+
+<button class="btn">
+VER DETALLES
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/cupvai.jpg">
+
+<p class="categoria">
+Cupcakes
+</p>
+
+<h4>
+Cupcakes de Vainilla
+</h4>
+
+<p class="precio">
+$60
+</p>
+
+<button class="btn">
+VER DETALLES
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="imagenes/galletas.jpg">
+
+<p class="categoria">
+Galletas
+</p>
+
+<h4>
+Galletas con Chispas
+</h4>
+
+<p class="precio">
+$35
+</p>
+
+<button class="btn">
+VER DETALLES
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<section class="footer-top">
+
+<div>
+🎂 Pedidos personalizados
+</div>
+
+<div>
+❤ Hecho con amor
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div>
+
+<h4>Dulce Encanto</h4>
+
+<p>
+Repostería artesanal hecha con amor.
+</p>
+
+</div>
+
+<div>
+
+<h4>Navegación</h4>
+
+<p>Inicio</p>
+<p>Productos</p>
+<p>Galería</p>
+
+</div>
+
+<div>
+
+<h4>Ayuda</h4>
+
+<p>Preguntas frecuentes</p>
+<p>Políticas</p>
+
+</div>
+
+<div>
+
+<h4>Contacto</h4>
+
+<p>951 651 9062</p>
+<p>marianamartinez9831@gmail.com</p>
+
+</div>
+
+</footer>
+
+<div class="copy">
+
+© 2026 Miga De A mor Repostería
+
+</div>
+
+</body>
+</html>
+
+ 

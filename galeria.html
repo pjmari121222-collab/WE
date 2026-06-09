@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MIGA DE AMOR - Galería</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+background:#FFF9F8;
+color:#3D2B2B;
+
+}
+
+header{
+
+background:#FDEFF1;
+padding:20px 70px;
+
+}
+
+.superior{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.logo h1{
+
+font-family:'Playfair Display';
+font-size:50px;
+
+}
+
+.logo p{
+
+font-size:12px;
+letter-spacing:4px;
+color:#E48395;
+
+}
+
+.contacto{
+
+display:flex;
+gap:25px;
+
+}
+
+nav{
+
+background:white;
+padding:22px;
+
+display:flex;
+justify-content:center;
+gap:50px;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#3D2B2B;
+font-weight:500;
+
+}
+
+.activo{
+
+color:#EB6F88;
+border-bottom:3px solid #EB6F88;
+padding-bottom:8px;
+
+}
+
+.hero{
+
+text-align:center;
+padding:70px 20px;
+
+}
+
+.hero h1{
+
+font-family:'Playfair Display';
+font-size:75px;
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:28px;
+line-height:45px;
+color:#444;
+
+}
+
+.botones{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.botones button{
+
+padding:15px 35px;
+
+border-radius:30px;
+
+border:1px solid #F0B5C0;
+
+background:white;
+
+color:#EB6F88;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+.activoBoton{
+
+background:#EB6F88 !important;
+
+color:white !important;
+
+}
+
+.galeria{
+
+padding:20px 40px;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:18px;
+
+}
+
+.foto{
+
+height:250px;
+
+overflow:hidden;
+
+border-radius:10px;
+
+}
+
+.foto img{
+
+width:100%;
+height:100%;
+object-fit:cover;
+
+transition:.4s;
+
+}
+
+.foto img:hover{
+
+transform:scale(1.05);
+
+}
+
+.centro{
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.cargar{
+
+background:#EB6F88;
+
+color:white;
+
+border:none;
+
+padding:15px 40px;
+
+border-radius:30px;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+.info{
+
+margin-top:50px;
+
+background:#FDEFF1;
+
+padding:60px;
+
+display:flex;
+
+justify-content:space-between;
+
+}
+
+.izquierda{
+
+width:45%;
+
+}
+
+.izquierda h2{
+
+font-family:'Playfair Display';
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+.izquierda p{
+
+font-size:20px;
+
+line-height:35px;
+
+margin-bottom:25px;
+
+}
+
+.boton2{
+
+background:#EB6F88;
+
+color:white;
+
+border:none;
+
+padding:14px 30px;
+
+border-radius:25px;
+
+}
+
+.derecha{
+
+width:35%;
+
+font-size:20px;
+
+line-height:55px;
+
+}
+
+footer{
+
+background:white;
+
+padding:50px;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:30px;
+
+}
+
+footer h3{
+
+margin-bottom:18px;
+
+}
+
+footer p{
+
+line-height:32px;
+
+}
+
+.copy{
+
+text-align:center;
+
+padding:25px;
+
+border-top:1px solid #eee;
+
+}
+
+@media(max-width:900px){
+
+.galeria{
+
+grid-template-columns:1fr;
+
+}
+
+.info{
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.izquierda,
+.derecha{
+
+width:100%;
+
+}
+
+footer{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="superior">
+
+<div class="logo">
+
+<h1>🧁 MIGA DE AMOR</h1>
+
+<p>REPOSTERÍA</p>
+
+</div>
+
+<div class="contacto">
+
+<span>📞 951 651 9062</span>
+
+<span>✉ marianamartinez9831@gmail.com</span>
+
+<span>📷</span>
+
+<span>🛒</span>
+
+</div>
+
+</div>
+
+</header>
+
+<nav>
+
+<a href="inicio.html">INICIO</a>
+
+<a href="productos.html">PRODUCTOS</a>
+
+<a href="pedidos personalizados.html">PEDIDOS PERSONALIZADOS</a>
+
+<a href="galeria.html">GALERÍA</a>
+
+<a href="contacto.html">CONTACTO</a>
+
+</nav>
+
+<section class="hero">
+
+<h1>Nuestra galería</h1>
+
+<p>
+
+Momentos dulces, hechos con amor.<br>
+
+Inspírate con algunos de nuestros trabajos.
+
+</p>
+
+<div class="botones">
+
+<button class="activoBoton">TODOS</button>
+
+<button>PASTELES</button>
+
+<button>CUPCAKES</button>
+
+<button>GALLETAS</button>
+
+<button>POSTRES</button>
+
+<button>EVENTOS</button>
+
+</div>
+
+</section>
+
+<section class="galeria">
+
+<div class="foto">
+<img src="imagenes/g1.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g2.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g3.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g4.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g5.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/img5.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g6.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/g7.jpg">
+</div>
+
+<div class="foto">
+<img src="imagenes/img4.jpg">
+</div>
+
+</section>
+
+<div class="centro">
+
+<button class="cargar">
+
+CARGAR MÁS FOTOS ❤
+
+</button>
+
+</div>
+
+<section class="info">
+
+<div class="izquierda">
+
+<h2>
+
+Hecho artesanalmente
+con ingredientes de calidad
+
+</h2>
+
+<p>
+
+Cada receta es preparada con dedicación
+para ofrecer el mejor sabor y una
+experiencia inolvidable.
+
+</p>
+
+<button class="boton2">
+
+CONÓCENOS
+
+</button>
+
+</div>
+
+<div class="derecha">
+
+<p>🎂 Pedidos personalizados</p>
+
+
+<p>❤ Hecho con amor</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<div>
+
+<h3>Dulce Encanto</h3>
+
+<p>
+
+Repostería artesanal hecha
+con amor para endulzar
+tus mejores momentos.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>NAVEGACIÓN</h3>
+
+<p>Inicio</p>
+
+<p>Productos</p>
+
+<p>Galería</p>
+
+</div>
+
+<div>
+
+<h3>AYUDA</h3>
+
+<p>Preguntas frecuentes</p>
+
+<p>Políticas</p>
+
+<p>Términos</p>
+
+</div>
+
+<div>
+
+<h3>CONTACTO</h3>
+
+<p>951 651 9062</p>
+
+<p>marianamartinez9831@gmail.com</p>
+
+<p>calle echeveria s/n, primer seccion SANTA LUCIA MIAHUATLAN</p>
+
+</div>
+
+</footer>
+
+<div class="copy">
+
+© 2026 Miga De Amor Repostería
+
+</div>
+
+</body>
+
+</html>
+
+ 
